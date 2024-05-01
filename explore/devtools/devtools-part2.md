@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 were both string values when fetched from the user input, so the + operator performed string concatenation rather than mathematical addition in calculateSum.
+2. I fixed it by explicitly converting num1 and num2 to numbers from string by using Number() in the calculateSum function. See screenshot in the screenshots folder.
