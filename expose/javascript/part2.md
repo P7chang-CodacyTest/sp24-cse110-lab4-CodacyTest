@@ -33,4 +33,9 @@
 15. == is regular equality check and operands of different types will automatically undergo type conversion when compared, which may result in the check returning true for values that are not strictly equal, such as false == 0. === is strict equality check and automatically fails if the operands are not of the same type, so it only returns true when the operands are strictly equal (i.e. same type, same value).
 16. See part2-question16.js
 17. The result will be the array [2,4,6]. modifyArray essentially takes in an array and a function and returns a modified array (or a new array based off the original input array) where each of the element is the result of applying the input function to the corresponding array element of the original array. Since the function doSomething simply takes in some value and returns that value multiplied by 2, the call essentially multiplies every element of the original array by 2, so [1,2,3] becomes [2,4,6].
-18. 
+18. See part2-question18.js
+19. the output is:
+    1
+    4
+    3
+    2
