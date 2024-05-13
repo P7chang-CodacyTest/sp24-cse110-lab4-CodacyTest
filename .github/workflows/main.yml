@@ -13,4 +13,9 @@ jobs: # the things being executed
       #  run: npm test ./__tests__/sum.test.js # the actual testing line
       - name: Codacy Analysis CLI
         uses: codacy/codacy-analysis-cli-action@v4.4.0
-            
+      - name: Build
+        uses: andstor/jsdoc-action@v1
+        with:
+          source_dir: ./src
+          recurse: true
+          output_dir: ./out
