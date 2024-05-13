@@ -23,3 +23,16 @@ function sumR(a, b) {
     res = a + b;
     return res;
 }
+/**
+ * 
+ * Dummy function for substracting two inputs
+ * 
+ * @param {*} a First input
+ * @param {*} b Second input
+ * @returns rest The Result
+ */
+function subR(a, b) {
+    R = a;
+    res = a - b;
+    return res;
+}
