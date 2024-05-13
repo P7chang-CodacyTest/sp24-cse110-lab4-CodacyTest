@@ -27,8 +27,8 @@ function sumR(a, b) {
  * 
  * Dummy function for substracting two inputs
  * 
- * @param {*} a First input
- * @param {*} b Second input
+ * @param {*} a first input
+ * @param {*} b second input
  * @returns rest The Result
  */
 function subR(a, b) {
